@@ -49,6 +49,7 @@ const Footer = () => {
                   height={24}
                   alt="US"
                   title="US"
+                  loading="lazy"
                 />
                 <svg
                   width="6"
@@ -178,6 +179,7 @@ const Footer = () => {
                 height={35}
                 alt="g-pay"
                 title="g-pay"
+                loading="lazy"
               />
               <Image
                 src={"/mastercard.png"}
@@ -185,6 +187,7 @@ const Footer = () => {
                 height={35}
                 alt="mastercard"
                 title="mastercard"
+                loading="lazy"
               />
               <Image
                 src={"/paypal.png"}
@@ -192,6 +195,7 @@ const Footer = () => {
                 height={35}
                 alt="paypal"
                 title="paypal"
+                loading="lazy"
               />
               <Image
                 src={"/amex.png"}
@@ -199,6 +203,7 @@ const Footer = () => {
                 height={35}
                 alt="amex"
                 title="amex"
+                loading="lazy"
               />
               <Image
                 src={"/ipay.png"}
@@ -206,6 +211,7 @@ const Footer = () => {
                 height={35}
                 alt="ipay"
                 title="ipay"
+                loading="lazy"
               />
               <Image
                 src={"/opay.png"}
@@ -213,6 +219,7 @@ const Footer = () => {
                 height={35}
                 alt="opay"
                 title="opay"
+                loading="lazy"
               />
             </div>
           </div>
