@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="py-[72px] max-md:pb-[30px] max-md:pt-[15px]">
-      <div className="hidden max-sm:block text-[#BFC8CD] text-sm mb-3 py-2 px-4">
+      <div className="hidden max-sm:block text-[#4D4D4D] text-sm mb-3 py-2 px-4">
         HOME <span className="mx-2">|</span>{" "}
         <span className="text-black">SHOP</span>
       </div>

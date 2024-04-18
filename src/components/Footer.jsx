@@ -63,7 +63,7 @@ const Footer = () => {
                     fill="white"
                   />
                 </svg>
-                <h6 className="text-[16px] font-bold">USD</h6>
+                <h4 className="text-[16px] max-md:text-sm font-bold">USD</h4>
               </div>
               <p className="text-xs max-md:hidden">
                 Transactions will be completed in Euros and a currency reference
@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Line */}
-        <div className="w-full border border-white mt-[26px] mb-[56px] max-md:mb-4"></div>
+        <div className="w-full border border-white mt-[26px] mb-[56px] max-md:my-4"></div>
         {/* Bottom */}
         <div className="flex max-lg:flex-col max-md:gap-6">
           {/* Bottom left */}

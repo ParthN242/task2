@@ -75,7 +75,7 @@ const Product = () => {
         <div className="max-md:text-sm">
           <select
             name="filter"
-            id=""
+            id="filter"
             className="font-semibold uppercase outline-none"
           >
             <option value="" className="p-3">
@@ -98,12 +98,7 @@ const Product = () => {
           <ProductFilter />
         </div>
         {/* Product */}
-        <div
-          className="flex-1 p-2 flex flex-wrap  gap-4 justify-center"
-          // style={{
-          //   gridTemplateColumns: "repeat(auto-fit,minmax(280px,1fr))",
-          // }}
-        >
+        <div className="flex-1 p-2 flex flex-wrap  gap-4 justify-center">
           {products.length > 0 &&
             products.map((item) => <ProductItem item={item} key={item.id} />)}
         </div>
