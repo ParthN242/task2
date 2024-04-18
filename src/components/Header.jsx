@@ -122,14 +122,15 @@ const Header = () => {
               stroke="#292D32"
             />
           </svg>
-          <select
-            name="language"
-            id="language"
-            className="font-bold pl-0 p-2 outline-gray-400 max-lg:hidden"
-          >
-            <option value="en">ENG</option>
-            <option value="in">IN</option>
-          </select>
+          <label>
+            <select
+              name="language"
+              className="font-bold pl-0 p-2 outline-gray-400 max-lg:hidden"
+            >
+              <option value="en">ENG</option>
+              <option value="in">IN</option>
+            </select>
+          </label>
         </div>
       </div>
       <ul className="flex items-center justify-center gap-16 max-lg:hidden">

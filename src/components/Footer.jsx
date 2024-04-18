@@ -15,10 +15,10 @@ const Footer = () => {
             <p className="max-md:hidden">
               Sign up for updates from mettā muse.
             </p>
-            <p className="hidden max-md:block max-md:text-sm">
+            {/* <p className="hidden max-md:block max-md:text-sm">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. this is simply dummy text.
-            </p>
+            </p> */}
             <div className="mt-[50px] max-md:mt-[20px] flex flex-wrap gap-[18px] max-md:gap-2">
               <input
                 type="email"
@@ -63,7 +63,9 @@ const Footer = () => {
                     fill="white"
                   />
                 </svg>
-                <h6 className="text-[16px] max-md:text-sm font-bold">USD</h6>
+                <h6 className="text-[16px] max-md:text-[12px] font-bold">
+                  USD
+                </h6>
               </div>
               <p className="text-xs max-md:hidden">
                 Transactions will be completed in Euros and a currency reference

@@ -73,19 +73,20 @@ const Product = () => {
           <h4 className="font-bold text-center">FILTER</h4>
         </div>
         <div className="max-md:text-sm">
-          <select
-            name="filter"
-            id="filter"
-            className="font-semibold uppercase outline-none"
-          >
-            <option value="" className="p-3">
-              RECOMMEDED
-            </option>
-            <option value="">Newest first</option>
-            <option value="">popular</option>
-            <option value="">Price : high to low</option>
-            <option value="">Price : low to high</option>
-          </select>
+          <label>
+            <select
+              name="filter"
+              className="font-semibold uppercase outline-none"
+            >
+              <option value="" className="p-3">
+                RECOMMEDED
+              </option>
+              <option value="">Newest first</option>
+              <option value="">popular</option>
+              <option value="">Price : high to low</option>
+              <option value="">Price : low to high</option>
+            </select>
+          </label>
         </div>
       </div>
       <div className="mt-8 flex">
