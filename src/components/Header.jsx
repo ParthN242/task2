@@ -6,7 +6,7 @@ const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
     <header className="relative border-b border-gray-300 pb-5 max-lg:pb-3 header">
-      <div className="bg-black text-[#EB4C6B] text-center text-[12px] py-2 flex items-center justify-center gap-4">
+      <div className="bg-black text-red-700 text-center text-[12px] py-2 flex items-center justify-center gap-4">
         <svg
           width="20"
           height="20"
@@ -56,7 +56,6 @@ const Header = () => {
             title="main-logo"
             alt="main-logo"
             className="max-sm:w-6"
-            loading="lazy"
           />
         </div>
         <h1 className="font-extrabold text-4xl  text-center max-sm:text-2xl max-sm:font-bold">
@@ -122,15 +121,14 @@ const Header = () => {
               stroke="#292D32"
             />
           </svg>
-          <label>
-            <select
-              name="language"
-              className="font-bold pl-0 p-2 outline-gray-400 max-lg:hidden"
-            >
-              <option value="en">ENG</option>
-              <option value="in">IN</option>
-            </select>
-          </label>
+          <select
+            name="language"
+            id="language"
+            className="font-bold pl-0 p-2 outline-gray-400 max-lg:hidden"
+          >
+            <option value="en">ENG</option>
+            <option value="in">IN</option>
+          </select>
         </div>
       </div>
       <ul className="flex items-center justify-center gap-16 max-lg:hidden">

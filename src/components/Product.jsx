@@ -73,20 +73,19 @@ const Product = () => {
           <h4 className="font-bold text-center">FILTER</h4>
         </div>
         <div className="max-md:text-sm">
-          <label>
-            <select
-              name="filter"
-              className="font-semibold uppercase outline-none"
-            >
-              <option value="" className="p-3">
-                RECOMMEDED
-              </option>
-              <option value="">Newest first</option>
-              <option value="">popular</option>
-              <option value="">Price : high to low</option>
-              <option value="">Price : low to high</option>
-            </select>
-          </label>
+          <select
+            name="filter"
+            id=""
+            className="font-semibold uppercase outline-none"
+          >
+            <option value="" className="p-3">
+              RECOMMEDED
+            </option>
+            <option value="">Newest first</option>
+            <option value="">popular</option>
+            <option value="">Price : high to low</option>
+            <option value="">Price : low to high</option>
+          </select>
         </div>
       </div>
       <div className="mt-8 flex">
@@ -99,7 +98,12 @@ const Product = () => {
           <ProductFilter />
         </div>
         {/* Product */}
-        <div className="flex-1 p-2 flex flex-wrap  gap-4 justify-center">
+        <div
+          className="flex-1 p-2 flex flex-wrap  gap-4 justify-center"
+          // style={{
+          //   gridTemplateColumns: "repeat(auto-fit,minmax(280px,1fr))",
+          // }}
+        >
           {products.length > 0 &&
             products.map((item) => <ProductItem item={item} key={item.id} />)}
         </div>

@@ -3,22 +3,22 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white min-h-screen">
+    <footer className="bg-black text-white">
       <div className="pl-[100px] pt-[80px] pr-[64px] max-lg:pl-[60px] max-md:px-5">
         {/* Top */}
         <div className="flex max-lg:flex-col gap-4">
           {/* Top Left */}
           <div className="w-[60%] max-lg:w-full">
-            <h4 className="uppercase font-bold text-xl mb-6">
+            <h3 className="uppercase font-bold text-xl mb-6">
               Be the first to know
-            </h4>
+            </h3>
             <p className="max-md:hidden">
               Sign up for updates from mettā muse.
             </p>
-            {/* <p className="hidden max-md:block max-md:text-sm">
+            <p className="hidden max-md:block max-md:text-sm">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. this is simply dummy text.
-            </p> */}
+            </p>
             <div className="mt-[50px] max-md:mt-[20px] flex flex-wrap gap-[18px] max-md:gap-2">
               <input
                 type="email"
@@ -35,7 +35,7 @@ const Footer = () => {
           {/* Top Right */}
           <div>
             <div>
-              <h4 className="uppercase font-bold text-xl">Contact Us</h4>
+              <h1 className="uppercase font-bold text-xl">Contact Us</h1>
               <div className="mt-4 mb-6 flex flex-col max-md:flex-row gap-4 max-md:gap-2 max-md:text-xs">
                 <p>+44 221 133 5360</p>
                 <p>customercare@mettamuse.com</p>
@@ -63,9 +63,7 @@ const Footer = () => {
                     fill="white"
                   />
                 </svg>
-                <h6 className="text-[16px] max-md:text-[12px] font-bold">
-                  USD
-                </h6>
+                <h6 className="text-[16px] font-bold">USD</h6>
               </div>
               <p className="text-xs max-md:hidden">
                 Transactions will be completed in Euros and a currency reference
@@ -75,13 +73,13 @@ const Footer = () => {
           </div>
         </div>
         {/* Line */}
-        <div className="w-full border border-white mt-[26px] mb-[56px] max-md:my-4"></div>
+        <div className="w-full border border-white mt-[26px] mb-[56px] max-md:mb-4"></div>
         {/* Bottom */}
         <div className="flex max-lg:flex-col max-md:gap-6">
           {/* Bottom left */}
           <div className="w-[60%] max-lg:w-full flex max-md:flex-col gap-[180px] max-lg:gap-[105px] max-md:gap-4">
             <div className="">
-              <h4 className="font-bold text-xl mb-[18px]">mettā muse</h4>
+              <h4 className="font-bold text-2xl mb-[18px]">mettā muse</h4>
               <ul className="flex flex-col gap-4 text-lg max-lg:text-[16px] whitespace-nowrap max-md:hidden">
                 <li>About Us</li>
                 <li>Stories</li>
@@ -93,7 +91,7 @@ const Footer = () => {
             </div>
             <div className="w-full border border-white hidden max-md:block"></div>
             <div className="">
-              <h4 className="font-bold text-xl mb-[18px] uppercase">
+              <h4 className="font-bold text-2xl mb-[18px] uppercase">
                 Quick Links
               </h4>
               <ul className="flex flex-col gap-4 text-lg max-lg:text-[16px] whitespace-nowrap max-md:hidden">
