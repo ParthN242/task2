@@ -11,7 +11,7 @@ const ProductItem = ({ item }) => {
         alt={item.title}
         title={item.title}
         className="object-contain max-w-auto h-[400px] max-lg:h-[300px] max-md:h-[200px] mx-auto"
-        loading="lazy"
+        priority
       />
       <div>
         <h3 className="text-lg font-bold line-clamp-1 mt-4 max-md:text-[16px]">
