@@ -63,7 +63,7 @@ const Footer = () => {
                     fill="white"
                   />
                 </svg>
-                <h4 className="text-[16px] max-md:text-sm font-bold">USD</h4>
+                <h6 className="text-[16px] max-md:text-sm font-bold">USD</h6>
               </div>
               <p className="text-xs max-md:hidden">
                 Transactions will be completed in Euros and a currency reference
