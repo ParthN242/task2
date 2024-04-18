@@ -12,7 +12,7 @@ const FilterItems = ({ heading, label, filters }) => {
         onClick={() => setIsOpne(!isOpen)}
       >
         <div>
-          <h6 className="font-bold text-lg">{heading}</h6>
+          <h4 className="font-bold text-lg">{heading}</h4>
           <p className="text-lg">{label}</p>
         </div>
         <div>

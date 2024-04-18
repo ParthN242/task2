@@ -4,15 +4,17 @@ import React from "react";
 const ProductItem = ({ item }) => {
   return (
     <div className="relative w-[280px] max-lg:w-[220px] max-md:w-[180px] max-sm:w-[140px]">
-      <Image
-        src={item.image}
-        width={280}
-        height={400}
-        alt={item.title}
-        title={item.title}
-        className="object-contain max-w-auto h-[400px] max-lg:h-[300px] max-md:h-[200px] mx-auto"
-        loading="lazy"
-      />
+      <div className="w-full h-[400px] max-lg:h-[300px] max-md:h-[200px]">
+        <Image
+          src={item.image}
+          width={280}
+          height={400}
+          alt={item.title}
+          title={item.title}
+          className="object-contain max-w-auto h-full mx-auto"
+          priority
+        />
+      </div>
       <div>
         <h3 className="text-lg font-bold line-clamp-1 mt-4 max-md:text-[16px]">
           {item.title}
